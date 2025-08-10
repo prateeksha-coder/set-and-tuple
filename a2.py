@@ -7,11 +7,9 @@ print("Updated Set:", my_set)
 set1 = my_set
 set2 = {2,4,4,6}
 
-
-
 print("\nSet 1", set1)
 print("Set 2", set2)
 print("Difference")
-print(set2.difference(set1))#set1-set2
+print(set1.difference(set2))#set1-set2
 print("Symmeteric Difference")
-print(set1.symmetric_difference(set2))
+print(set2.symmetric_difference(set1))
