@@ -12,4 +12,4 @@ print("Set 2", set2)
 print("Difference")
 print(set1.difference(set2))#set1-set2
 print("Symmeteric Difference")
-print(set1.symmetric_difference(set2))
+print(set2.symmetric_difference(set1))
